@@ -53,15 +53,15 @@ export default function Header() {
       </Box>
 
       {/* header search */}
-       <SearchSection /> 
+      <SearchSection />
       <Box sx={{ flexGrow: 1 }} />
       <Box sx={{ flexGrow: 1 }} />
 
       {/* notification */}
-      {/* <NotificationSection /> */}
+      <NotificationSection />
 
       {/* profile */}
-      {/* <ProfileSection /> */}
+      <ProfileSection />
     </>
   );
 }
