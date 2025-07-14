@@ -16,34 +16,13 @@ export default function Footer() {
         mt: 'auto'
       }}
     >
-      <Typography variant="caption">
+      {/* <Typography variant="caption">
         &copy; All rights reserved{' '}
         <Typography component={Link} href="https://codedthemes.com/about-us/" underline="hover" target="_blank" color="secondary.main">
           CodedThemes
         </Typography>
-      </Typography>
-      <Stack direction="row" sx={{ gap: 1.5, alignItems: 'center', justifyContent: 'space-between' }}>
-        <Link
-          component={RouterLink}
-          to="https://x.com/codedthemes"
-          underline="hover"
-          target="_blank"
-          variant="caption"
-          color="text.primary"
-        >
-          Twitter
-        </Link>
-        <Link
-          component={RouterLink}
-          to="https://discord.com/invite/p2E2WhCb6s"
-          underline="hover"
-          target="_blank"
-          variant="caption"
-          color="text.primary"
-        >
-          Discord
-        </Link>
-      </Stack>
+      </Typography> */}
+      
     </Stack>
   );
 }

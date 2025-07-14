@@ -42,10 +42,10 @@ function Sidebar() {
   const drawer = useMemo(() => {
     const drawerContent = (
       <>
-        <MenuCard />
-        <Stack direction="row" sx={{ justifyContent: 'center', mb: 2 }}>
+        {/* <MenuCard /> */}
+        {/* <Stack direction="row" sx={{ justifyContent: 'center', mb: 2 }}>
           <Chip label={import.meta.env.VITE_APP_VERSION} size="small" color="default" />
-        </Stack>
+        </Stack> */}
       </>
     );
 
