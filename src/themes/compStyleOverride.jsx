@@ -3,8 +3,8 @@ import componentsOverrides from './overrides';
 
 export default function componentStyleOverrides(theme, borderRadius, outlinedFilled) {
   const bgColor = theme.palette.grey[50];
-  const menuSelectedBack = theme.palette.secondary.light;
-  const menuSelected = theme.palette.secondary.dark;
+  const menuSelectedBack = theme.palette.primary.light;
+  const menuSelected = theme.palette.primary.dark;
 
   return {
     MuiButton: {
@@ -118,7 +118,7 @@ export default function componentStyleOverrides(theme, borderRadius, outlinedFil
         input: {
           color: theme.palette.text.dark,
           '&::placeholder': {
-            color: theme.palette.text.secondary,
+            color: theme.palette.text.primary,
             fontSize: '0.875rem'
           }
         }
@@ -179,11 +179,11 @@ export default function componentStyleOverrides(theme, borderRadius, outlinedFil
       styleOverrides: {
         root: {
           '& .MuiAutocomplete-tag': {
-            background: theme.palette.secondary.light,
+            background: theme.palette.primary.light,
             borderRadius: 4,
             color: theme.palette.text.dark,
             '.MuiChip-deleteIcon': {
-              color: theme.palette.secondary[200]
+              color: theme.palette.primary[200]
             }
           }
         },

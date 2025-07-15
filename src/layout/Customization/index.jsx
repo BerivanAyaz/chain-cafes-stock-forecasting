@@ -40,7 +40,7 @@ export default function Customization() {
           onClick={handleToggle}
           size="medium"
           variant="circular"
-          color="secondary"
+          color="primary"
           sx={{
             borderRadius: 0,
             borderTopLeftRadius: '50%',
@@ -51,7 +51,7 @@ export default function Customization() {
             position: 'fixed',
             right: 10,
             zIndex: 1200,
-            boxShadow: theme.customShadows.secondary
+            boxShadow: theme.customShadows.primary
           }}
         >
           <AnimateButton type="rotate">

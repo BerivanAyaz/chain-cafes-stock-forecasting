@@ -58,7 +58,7 @@ export default function Breadcrumbs({
     marginTop: -2,
     width: '1rem',
     height: '1rem',
-    color: theme.palette.secondary.main
+    color: theme.palette.primary.main
   };
 
   const linkSX = {
@@ -187,7 +187,7 @@ export default function Breadcrumbs({
         noWrap
         sx={{
           ...linkSX,
-          color: 'text.secondary',
+          color: 'text.primary',
           display: 'inline-block',
           overflow: 'hidden',
           lineHeight: 1.5,

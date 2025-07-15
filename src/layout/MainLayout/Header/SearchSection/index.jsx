@@ -30,11 +30,11 @@ function HeaderAvatarComponent({ children, ref, ...others }) {
       sx={{
         ...theme.typography.commonAvatar,
         ...theme.typography.mediumAvatar,
-        bgcolor: 'secondary.light',
-        color: 'secondary.dark',
+        bgcolor: 'primary.light',
+        color: 'primary.dark',
         '&:hover': {
-          bgcolor: 'secondary.dark',
-          color: 'secondary.light'
+          bgcolor: 'primary.dark',
+          color: 'primary.light'
         }
       }}
       {...others}

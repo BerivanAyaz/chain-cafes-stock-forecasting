@@ -146,7 +146,7 @@ export default function NotificationList() {
               21 Jan 2020
             </Typography>
           </Typography>
-          <Card sx={{ bgcolor: 'secondary.light' }}>
+          <Card sx={{ bgcolor: 'primary.light' }}>
             <Stack direction="row" spacing={2} sx={{ p: 2.5 }}>
               <IconPhoto stroke={1.5} size="20px" />
               <Typography variant="subtitle1">demo.jpg</Typography>

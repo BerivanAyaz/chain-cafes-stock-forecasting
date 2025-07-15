@@ -92,11 +92,11 @@ export default function NotificationSection() {
             ...theme.typography.commonAvatar,
             ...theme.typography.mediumAvatar,
             transition: 'all .2s ease-in-out',
-            bgcolor: 'secondary.light',
-            color: 'secondary.dark',
+            bgcolor: 'primary.light',
+            color: 'primary.dark',
             '&[aria-controls="menu-list-grow"],&:hover': {
-              bgcolor: 'secondary.dark',
-              color: 'secondary.light'
+              bgcolor: 'primary.dark',
+              color: 'primary.light'
             }
           }}
           ref={anchorRef}

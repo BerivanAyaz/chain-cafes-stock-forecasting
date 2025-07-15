@@ -154,7 +154,7 @@ export default function NavCollapse({ menu, level, parentId }) {
     <IconChevronRight stroke={1.5} size="16px" style={{ marginTop: 'auto', marginBottom: 'auto' }} />
   );
 
-  const iconSelectedColor = 'secondary.main';
+  const iconSelectedColor = 'primary.main';
 
   return (
     <>
@@ -167,11 +167,11 @@ export default function NavCollapse({ menu, level, parentId }) {
           ...(!drawerOpen && { pl: 1.25 }),
           ...(drawerOpen &&
             level === 1 && {
-              '&:hover': { bgcolor: 'secondary.light' },
+              '&:hover': { bgcolor: 'primary.light' },
               '&.Mui-selected': {
-                bgcolor: 'secondary.light',
+                bgcolor: 'primary.light',
                 color: iconSelectedColor,
-                '&:hover': { color: iconSelectedColor, bgcolor: 'secondary.light' }
+                '&:hover': { color: iconSelectedColor, bgcolor: 'primary.light' }
               }
             }),
           ...((!drawerOpen || level !== 1) && {
@@ -197,12 +197,12 @@ export default function NavCollapse({ menu, level, parentId }) {
                   alignItems: 'center',
                   justifyContent: 'center',
                   '&:hover': {
-                    bgcolor: 'secondary.light'
+                    bgcolor: 'primary.light'
                   },
                   ...(isSelected && {
-                    bgcolor: 'secondary.light',
+                    bgcolor: 'primary.light',
                     '&:hover': {
-                      bgcolor: 'secondary.light'
+                      bgcolor: 'primary.light'
                     }
                   })
                 })

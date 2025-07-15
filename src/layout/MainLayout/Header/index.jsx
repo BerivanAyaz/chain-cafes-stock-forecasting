@@ -38,11 +38,11 @@ export default function Header() {
             ...theme.typography.mediumAvatar,
             overflow: 'hidden',
             transition: 'all .2s ease-in-out',
-            bgcolor: 'secondary.light',
-            color: 'secondary.dark',
+            bgcolor: 'primary.light',
+            color: 'primary.dark',
             '&:hover': {
-              bgcolor: 'secondary.dark',
-              color: 'secondary.light'
+              bgcolor: 'primary.dark',
+              color: 'primary.light'
             }
           }}
           onClick={() => handlerDrawerOpen(!drawerOpen)}

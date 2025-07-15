@@ -66,7 +66,7 @@ export default function NavItem({ item, level, isParents = false, setSelectedID 
     }
   };
 
-  const iconSelectedColor = 'secondary.main';
+  const iconSelectedColor = 'primary.main';
 
   return (
     <>
@@ -85,14 +85,14 @@ export default function NavItem({ item, level, isParents = false, setSelectedID 
           ...(drawerOpen &&
             level === 1 && {
               '&:hover': {
-                bgcolor: 'secondary.light'
+                bgcolor: 'primary.light'
               },
               '&.Mui-selected': {
-                bgcolor: 'secondary.light',
+                bgcolor: 'primary.light',
                 color: iconSelectedColor,
                 '&:hover': {
                   color: iconSelectedColor,
-                  bgcolor: 'secondary.light'
+                  bgcolor: 'primary.light'
                 }
               }
             }),
@@ -125,12 +125,12 @@ export default function NavItem({ item, level, isParents = false, setSelectedID 
                   alignItems: 'center',
                   justifyContent: 'center',
                   '&:hover': {
-                    bgcolor: 'secondary.light'
+                    bgcolor: 'primary.light'
                   },
                   ...(isSelected && {
-                    bgcolor: 'secondary.light',
+                    bgcolor: 'primary.light',
                     '&:hover': {
-                      bgcolor: 'secondary.light'
+                      bgcolor: 'primary.light'
                     }
                   })
                 })
