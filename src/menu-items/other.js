@@ -1,8 +1,8 @@
 // assets
-import { IconBrandChrome, IconHelp } from '@tabler/icons-react';
+import { IconBrandChrome, IconHelp, IconGraph} from '@tabler/icons-react';
 
 // constant
-const icons = { IconBrandChrome, IconHelp };
+const icons = { IconBrandChrome, IconHelp, IconGraph };
 
 // ==============================|| SAMPLE PAGE & DOCUMENTATION MENU ITEMS ||============================== //
 
@@ -12,10 +12,10 @@ const other = {
   children: [
     {
       id: 'sample-page',
-      title: 'Documentation',
+      title: 'Graphics',
       type: 'item',
       url: '/sample-page',
-      icon: icons.IconHelp,
+      icon: icons.IconGraph,
       breadcrumbs: false
     },
     // {
